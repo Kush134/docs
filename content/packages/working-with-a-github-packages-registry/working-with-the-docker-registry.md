@@ -1,7 +1,7 @@
 ---
 title: Working with the Docker registry
 intro: '{% if currentVersion == "free-pro-team@latest" %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry, which uses the package namespace `https://docker.pkg.github.com`.{% endif %}'
-product: '{% data reusables.gated-features.packages %}'
+product: '{% data reusables.gated-features.packages  %}'
 redirect_from:
   - /articles/configuring-docker-for-use-with-github-package-registry
   - /github/managing-packages-with-github-package-registry/configuring-docker-for-use-with-github-package-registry
